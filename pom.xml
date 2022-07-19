@@ -3,4 +3,45 @@
   <groupId>com.wesco</groupId>
   <artifactId>common-entities</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <distributionManagement>
+	   <repository>
+	     <id>common-entities</id>
+	     <name>GitHub wesco-chandanabuduru Apache Maven Packages</name>
+	     <url>https://maven.pkg.github.com/wesco-chandanabuduru/common-entities</url>
+	   </repository>
+    </distributionManagement>
+
+	 <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.11</version>
+        <relativePath/>
+    </parent>
+    <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>11</java.version>
+	</properties>
+	 <dependencies>
+	
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+         <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.0.20.Final</version>
+        </dependency>
+         <dependency>
+		 <groupId>org.postgresql</groupId>
+	   	 <artifactId>postgresql</artifactId>
+	    </dependency>
+    </dependencies>
 </project>
