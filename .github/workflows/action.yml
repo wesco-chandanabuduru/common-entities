@@ -33,5 +33,5 @@ jobs:
       - name: Deploy to Github Package Registry
         env:
           GITHUB_USERNAME: wesco-chandanabuduru
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: mvn -s settings.xml deploy
