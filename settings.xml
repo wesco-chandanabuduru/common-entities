@@ -20,7 +20,7 @@
         </repository>
         <repository>
           <id>common-entities</id>
-          <url>https://maven.pkg.github.com/wesco-chandanabuduru/*</url>
+          <url>https://maven.pkg.github.com/wesco-chandanabuduru/common-entities</url>
           <releases>
             <enabled>true</enabled>
           </releases>
@@ -36,7 +36,7 @@
     <server>
       <id>common-entities</id>
       <username>wesco-chandanabuduru</username>
-      <password> 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</password>
+      <password>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</password>
     </server>
   </servers>
 </settings>
