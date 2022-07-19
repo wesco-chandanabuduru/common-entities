@@ -4,12 +4,12 @@
                       http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
   <activeProfiles>
-    <activeProfile>wdp-entities</activeProfile>
+    <activeProfile>common-entities</activeProfile>
   </activeProfiles>
 
   <profiles>
     <profile>
-      <id>wdp-entities</id>
+      <id>common-entities</id>
       <repositories>
         <repository>
           <id>central</id>
@@ -19,8 +19,8 @@
           <url>https://repo1.maven.org/maven2</url>
         </repository>
         <repository>
-          <id>wdp-entities</id>
-          <url>https://maven.pkg.github.com/WESCO-International/wdp-entities</url>
+          <id>common-entities</id>
+          <url>https://maven.pkg.github.com/wesco-chandanabuduru/*</url>
           <releases>
             <enabled>true</enabled>
           </releases>
@@ -34,9 +34,9 @@
 
   <servers>
     <server>
-      <id>wdp-entities</id>
-      <username>${env.GITHUB_USERNAME}</username>
-      <password>${env.GITHUB_TOKEN}</password>
+      <id>common-entities</id>
+      <username>wesco-chandanabuduru</username>
+      <password> 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</password>
     </server>
   </servers>
 </settings>
