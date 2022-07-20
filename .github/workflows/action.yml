@@ -32,5 +32,6 @@ jobs:
           cache: 'maven'
       - name: Deploy to Github Package Registry
         env:
+          GITHUB_USERNAME: wesco-chandanabuduru
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run:  mvn -s settings.xml deploy
