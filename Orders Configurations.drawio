@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2024-06-27T07:19:42.357Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Wxqo_5k5w6y0CYyyY897" version="24.6.3" type="github">
+  <diagram name="Page-1" id="BYTXbC25DRY8ZI2Z7DPX">
+    <mxGraphModel dx="1026" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M__pvSeYkyBA2umGWvLx-5" value="Fetch Package and Product Data&amp;nbsp;&lt;div&gt;POST/GET&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M__pvSeYkyBA2umGWvLx-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="324" y="290" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M__pvSeYkyBA2umGWvLx-7" value="iomp-product-service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="357" y="307.5" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="M__pvSeYkyBA2umGWvLx-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="220" y="320" as="sourcePoint" />
+            <mxPoint x="320" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M__pvSeYkyBA2umGWvLx-14" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="530" y="320" as="sourcePoint" />
+            <mxPoint x="600" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M__pvSeYkyBA2umGWvLx-25" value="Mongo DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="600" y="280" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M__pvSeYkyBA2umGWvLx-46" value="&lt;pre style=&quot;margin-top: 0px;&quot;&gt;{&lt;br&gt;  &quot;partNumber&quot;:&quot;1245&quot;,&lt;br&gt;  &quot;vendor&quot;:&quot;Crestron&quot;,&lt;br&gt;  &quot;type&quot;:&quot;Software&quot;&lt;br&gt;}&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="200" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eWnXWsVsrv5pQYVKBkyM-1" value="&lt;pre style=&quot;margin-top: 0px;&quot;&gt;&lt;pre&gt;&lt;blockquote&gt;&lt;font face=&quot;Verdana&quot;&gt;Vendors:&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;font face=&quot;Verdana&quot;&gt;{&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;data&quot;:[&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;     &quot;crestron&quot;,&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;    &quot;Axis&lt;/font&gt;&quot;,&lt;br&gt;  &quot;WESCO SERV&quot; ....&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;   ],&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;totalRecords&quot;:3,&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;key&quot;:&quot;key12356&quot;,&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;timestamp&quot;:1709019204334&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;}&lt;/font&gt;&lt;/blockquote&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="20" y="370" width="250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="V74e8FULXuamF04aTMyP-1" value="&lt;pre style=&quot;margin-top: 0px;&quot;&gt;&lt;pre&gt;&lt;blockquote&gt;&lt;font face=&quot;Verdana&quot;&gt;Types:&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;font face=&quot;Verdana&quot;&gt;{&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;data&quot;:[&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;     &quot;Kit&quot;,&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;    &quot;Software&lt;/font&gt;&quot;,&lt;br&gt;  &quot;Switch&quot; ....&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;   ],&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;totalRecords&quot;:3,&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;key&quot;:&quot;key12356&quot;,&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;timestamp&quot;:1709019204334&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;}&lt;/font&gt;&lt;/blockquote&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="375" width="250" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="V74e8FULXuamF04aTMyP-2" value="&lt;pre style=&quot;text-align: left;&quot;&gt;&lt;blockquote&gt;&lt;span style=&quot;font-family: Verdana; background-color: initial; white-space: normal;&quot;&gt;{&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;font face=&quot;Verdana&quot;&gt;&quot;data&quot;:[&lt;/font&gt;&lt;/blockquote&gt;&lt;/pre&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;pre style=&quot;text-align: left;&quot;&gt;&lt;blockquote&gt;&lt;font face=&quot;Verdana&quot;&gt; { &lt;/font&gt;&lt;span style=&quot;font-family: Verdana; background-color: initial; white-space: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;span style=&quot;font-family: Verdana; background-color: initial; white-space: normal;&quot;&gt;&amp;nbsp;&quot;partNumber&quot;:&quot;1245&quot;,&lt;/span&gt;&lt;/blockquote&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: left;&quot;&gt;&lt;blockquote&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;vendor&lt;/font&gt;&quot;:&quot;Crestron&quot;,&lt;/blockquote&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: left;&quot;&gt;&lt;blockquote&gt;  &quot;type&quot;:&quot;Switch&quot;,&lt;/blockquote&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: left;&quot;&gt;&lt;blockquote&gt;  &quot;description&quot;:&quot;xxxx&quot;,&lt;/blockquote&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: left;&quot;&gt;&lt;blockquote&gt;  &quot;shippable&quot;:&quot;yes&quot;&lt;/blockquote&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: left;&quot;&gt;&lt;blockquote&gt;},......&lt;/blockquote&gt;&lt;/pre&gt;&lt;/blockquote&gt;&lt;pre style=&quot;text-align: left;&quot;&gt;&lt;blockquote&gt;&lt;font face=&quot;Verdana&quot;&gt;         ],&lt;br&gt;&lt;/font&gt;&lt;blockquote&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;totalRecords&quot;:3,&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;key&quot;:&quot;key12356&quot;,&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;   &quot;timestamp&quot;:1709019204334&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;}&lt;/font&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="420" width="240" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
