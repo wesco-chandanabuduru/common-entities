@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="DPZuo2MElfHg3hLIPSLu">
+    <mxGraphModel dx="1853" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="de4ILAnR9qA3daskAeha-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;startArrow=classic;startFill=1;" edge="1" parent="1" source="de4ILAnR9qA3daskAeha-1" target="de4ILAnR9qA3daskAeha-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-1" value="&lt;b&gt;UI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-2" value="&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;IAM (keycloak)&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1F0FFF;" vertex="1" parent="1">
+          <mxGeometry x="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-3" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#006633&quot;&gt;Order Service&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1F0FFF;" vertex="1" parent="1">
+          <mxGeometry x="490" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-4" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#994c00&quot;&gt;Customer Service&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1F0FFF;" vertex="1" parent="1">
+          <mxGeometry x="490" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-5" value="&lt;font color=&quot;#ea6b66&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;User Service&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1F0FFF;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.017;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="de4ILAnR9qA3daskAeha-1" target="de4ILAnR9qA3daskAeha-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="170" as="sourcePoint" />
+            <mxPoint x="230" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.017;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="de4ILAnR9qA3daskAeha-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="222" as="sourcePoint" />
+            <mxPoint x="488" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.017;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="de4ILAnR9qA3daskAeha-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="192" y="222" as="sourcePoint" />
+            <mxPoint x="490" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.833;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" target="de4ILAnR9qA3daskAeha-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="60" as="sourcePoint" />
+            <mxPoint x="480" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-14" value="Login with credentials&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-15" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-17" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="200" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="de4ILAnR9qA3daskAeha-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="230" as="sourcePoint" />
+            <mxPoint x="50" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-22" value="Get RPT Token" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-24" value="Authorized user will have the permission to call the APIs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-26" value="Get Token" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-34" value="RPT Token" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-35" value="RPT Token" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-36" value="RPT Token" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="de4ILAnR9qA3daskAeha-38" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre&gt;&lt;b&gt;RPT Token Details&lt;/b&gt;&lt;/pre&gt;&lt;pre&gt;{&lt;br&gt;.........&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;resource_access&quot;:{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;iomp-backend-dev&quot;:{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;roles&quot;:[&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;CSS&quot;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;]&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;br&gt;&amp;nbsp; &amp;nbsp;...&lt;br&gt;&amp;nbsp; &amp;nbsp;},&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;authorization&quot;:{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;permissions&quot;:[&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;rsid&quot;:&quot;a11711c8-edd9-4e4b-b902-f43959c30b57&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;rsname&quot;:&quot;Default Resource&quot;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;},&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;scopes&quot;:[&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;iomp-view&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;iomp-create&quot;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;rsid&quot;:&quot;51fc52d6-406a-44f9-8a4f-b6d26b8b602b&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;rsname&quot;:&quot;iomp-order-resource&quot;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;},&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;scopes&quot;:[&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;iomp-all&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;iomp-view&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;iomp-update&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;iomp-create&quot;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;rsid&quot;:&quot;1061df83-da7d-4b60-ad18-ef1223450868&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;rsname&quot;:&quot;iomp-customer-resource&quot;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;br&gt;&amp;nbsp; &amp;nbsp;},&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;customerId&quot;:&quot;12345&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;tenantId&quot;:&quot;iomp&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp;..................&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;iomp_persona&quot;:[&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;/IOMP_CSS&quot;&lt;br&gt;&amp;nbsp; &amp;nbsp;],&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;email&quot;:&quot;praveen.ps@wescodist.com&quot;&lt;br&gt;}&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
